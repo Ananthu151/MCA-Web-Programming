@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		function clickme() {
+			// body...
+			alert("How are You!!!!!!!");
+
+			p=confirm("Do you like to continue:😍");
+			if(p==1){
+				alert("Thanks for your time");
+			}
+			else{
+				alert("Sorryyyyyyy!!!")
+			}
+		}
+		function overme() {
+			
+			var i=document.getElementById('b');
+			i.style.background="red";
+			alert("Click the button to continue");
+			
+
+		}
+	</script>
+</head>
+<body id="b">
+<button onclick="clickme();" >click</button>
+<button onmouseover="overme();">overme</button>
+
+</body>
+</html>
